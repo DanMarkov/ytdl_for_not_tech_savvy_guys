@@ -8,10 +8,10 @@
 7. Copy the whole path of the youtube-dl folder and paste it into System:Advanced system settings:Environment Variables... At the System Variables below click on Path variable and paste the path
 8. Create a new folder youtube-dl in the directory user:AppData:Roaming and create a new txt document config.txt in it
 9. In the config.txt type: 
--f mp4
--f best
--o "Paste whatever directory you wish to store downloaded videos" For example: F:/Obrabotka/%(title)s.%(ext)s
---no-mtime
+* -f mp4
+* -f best
+* -o "Paste whatever directory you wish to store downloaded videos" For example: F:/Obrabotka/%(title)s.%(ext)s
+* --no-mtime
 
 ### downloading ytdl-explorer
 
